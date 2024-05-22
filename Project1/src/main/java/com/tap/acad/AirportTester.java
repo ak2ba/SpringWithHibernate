@@ -15,7 +15,7 @@ public class AirportTester {
 		Session session = bean.openSession();
 	    Transaction transaction = session.beginTransaction();
 	    
-	    Employee e = new Employee(7, "mallikarjun", "trainer", 35000);
+	    Employee e = new Employee(8, "mallikarjun", "trainer", 35000);
 	    session.save(e);
 	    
 	    transaction.commit();

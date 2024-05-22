@@ -14,5 +14,4 @@
 		<property name="show_sql">true</property>
 		<mapping class="com.tap.entity.Employee"></mapping>
 	</session-factory>
-
 </hibernate-configuration>
